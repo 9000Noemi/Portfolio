@@ -1,0 +1,14 @@
+.footer {
+    position:fixed;
+    bottom: 0;
+    font-weight: 100;
+    font-style: var(--font-cascadia_code);
+    padding: 1em 0;
+    font-size: 0.6rem;
+    width: 100%;
+    text-align: center;
+    background-color:var(--black);
+    color: var(--skyblue)
+    
+    
+  }
