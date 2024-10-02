@@ -10,39 +10,126 @@
     <link rel="stylesheet" href="styles/utils.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/banner.css">
     
 </head>
 
 <body class="body">
 
+
     <header class="header">
 
         <img class="logo" src="assets/images/VanGoghLogo.png" alt="Logo de Van Gogh">
         
-    
         
         <nav  class="nav">
             <ul class="nav-list">
-                <li><a href="#about me">Mi historia</a></li>
-                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#about me">Skills</a></li>
+                <li><a href="#contact">Contacto</a></li>
                 <li><a href="#works">Obras</a></li>
             </ul>
         </nav>
-
-
     </header>
     
 
+    <!--Presentación y skills-->
     <section class="section">
-        <h1>Vincent van Gogh</h1>
         <h2>Probando el h2</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit temporibus dicta totam, deserunt corporis quod, eveniet tenetur saepe quia ipsam, odit ab? Dolores, iste! Natus accusamus odio culpa voluptatum similique?</p>
+        <!--Aqui irian las barras de progreso-->
+    </section>  
 
 
-     </section>  
+    <!--Banner con imagen de fondo que debe ser distinta para movil y para pc-->
+     <section class="banner">
+        <div class="image"></div>
+        <div class="content">
+          <h2>Van Gogh</h2>
+        </div>
+      </section>
 
 
+    <!--Formulario-->
+    <div class="formulario">
+        <h3>Contacto</h3>
+        <form method="post">
+            <div class="name">
+                <label for="name">Nombre</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value=""
+                  autocomplete="off"
+                  required
+                >
+              </div>
+            <div class="surname">
+                <label for="surname">Apellidos</label>
+                <input
+                  type="text"
+                  id="surname"
+                  name="surname"
+                  value=""
+                  autocomplete="off"
+                  required
+                >
+              </div>
+                
+            <div class="form__input">
+                <label for="tel">Teléfono</label>
+                <input
+                  required
+                  type="tel"
+                  id="tel"
+                  name="phone"
+                  autocomplete="off"
+                >
+              </div>
+              <!--
+              <div class="form__input">
+                <label for="file">Choose a profile picture</label>
+                <input required type="file" id="file" name="profile" accept="image/png">
+              </div>
+              <fieldset class="form__input">
+                <legend>Fav genre</legend>
+                <label for="shows">shows</label>
+                <input required type="radio" id="shows" name="genre" value="shows" checked>
+                <label for="docu">Docus</label>
+                <input required type="radio" id="docu" name="genre" value="docus">
+              </fieldset>
+              
+              <div class="form__input">
+                <label for="bio">User bio</label>
+                <textarea required name="userbio" id="bio" rows="10" maxlength="250"></textarea>
+              </div>
+              <div class="form__input">
+                <label for="remember">Remember me</label>
+                <input type="checkbox" name="remember" id="remember">
+              </div>
+              <button class="btn" type="button">More info</button>
+              <div class="form__input">
+                <label for="country">Country</label>
+                <select required name="country" id="country">
+                  <option value="ES">Spain</option>
+                  <option value="CO">Colombia</option>
+                  <option value="US">Usa</option>
+                </select>
+              </div>
+             
+              <div class="form__input">
+                <button class="btn" type="reset">Reset</button>
+                <button class="btn" type="submit">Guardar</button>
+              </div>
+        </form>
+        -->
 
+
+        
+
+
+    </div>
 
 
     <footer class="footer">
