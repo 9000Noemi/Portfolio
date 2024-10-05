@@ -1,24 +1,33 @@
 .banner {
     height: 50vh;
+    width: 100%;
     align-content: center;
     position: relative;
-    border: 15px solid green;
 
 
 .content {
     text-align: center;
     z-index: 1;
     position: relative;
+    font-size: 30px;
+    color: var(--orange);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--black);
   }
 
+
 .image {
-    background-image: url('assets/images/banner_image.png');
+    background-image: url('../assets/images/banner_image.png');
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.3;
-
+    opacity: 0.9;
+    background-size: cover; 
+    background-repeat: no-repeat ;
+   
+    /*NO SE SI HACE FALTA SOLO PARA LAPTOP*/
+    
   }
 }

@@ -9,7 +9,7 @@
     align-items: center;
     padding: 1em; /* Espaciado interno */
     margin-bottom: 0px;
-    border-bottom: 3px solid var(--skyblue); /* Borde inferior para separar el header */
+    border-bottom: 0.2px solid var(--skyblue); /* Borde inferior para separar el header */
     background-color: var(--black);
     .logo {
         width: 20%;
@@ -31,13 +31,16 @@
         .nav-list li a {
             text-decoration: none;
             color: var(--skyblue); 
-            /* transition: color 0.3s ease; /* Suave transición para hover */
             font-weight: 50;
-            font-style: var(--font-sans_serif);
+
         }
       }
-
+      
     }
+    
+
+
+
     
 
 

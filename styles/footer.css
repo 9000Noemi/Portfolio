@@ -1,6 +1,6 @@
 .footer {
-    position:fixed;
-    bottom: 0;
+    display: flex;
+    justify-content: center;
     font-weight: 100;
     font-style: var(--font-cascadia_code);
     padding: 1em 0;
