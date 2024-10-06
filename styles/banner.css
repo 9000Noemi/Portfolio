@@ -17,7 +17,7 @@
 
 
 .image {
-    background-image: url('../assets/images/banner_image.png');
+    background-image: url('../assets/images/banner_mobile.png');
     position: absolute;
     left: 0;
     top: 0;
@@ -27,7 +27,16 @@
     background-size: cover; 
     background-repeat: no-repeat ;
    
-    /*NO SE SI HACE FALTA SOLO PARA LAPTOP*/
+    
     
   }
+}
+
+@media screen and (width>768px){
+  .banner{
+    .image{
+      background-image: url('../assets/images/banner_image.png');
+    }
+  }
+
 }
