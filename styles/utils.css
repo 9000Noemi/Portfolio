@@ -6,9 +6,10 @@
     --skyblue: #87CEEB;
     --orange: #FFA500;
     --gold: #FFD700;
+    --soft-yellow:#f7fb3e;
     
      
-    --main-font-family: "Cascadia Code", Arial,sans-serif;
+    
     font-size: 18px; 
 }
 
@@ -18,10 +19,29 @@
     margin: 1.2em;
 }
 
+.btn{
+    color: var(--black);
+    background-color: var(--soft-yellow);
+    width: 90px;
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 0.5px solid var(--black);
+    transition: all 0.8s;
+      
+}
+
 
 @media screen and (width > 768px) {
-    .pointer { /* Creamos la clase pointer q habria q añadirla a los elementos que queremos NO FUNCIONA*/
+    .pointer { 
         cursor: pointer;
+    }
+    .btn{
+        cursor:pointer;
+        &:hover {
+            background-color: var(--gold);
+            
+          }
     }
 }
 
