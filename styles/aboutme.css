@@ -3,15 +3,7 @@
     color: var(--white);
     margin-top: auto;
     border: 2px solid var(--black);
-       
-
-.titulo {
-    font-size: 22px ;
-    color: var(--skyblue);
-    margin: 1.2em;
-
     }
 .presentacion {
     margin: 1.2em
-}
 }
