@@ -3,12 +3,8 @@
     .skillsList{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        grid-template-rows: 10vh 10vh;
         place-content: center;
         gap: 1.5rem;
-        grid-template-areas: 
-            "li li"
-            "li li";
         
         .item_skills{
             font-family:'Arial Narrow', Arial, sans-serif;
@@ -83,13 +79,8 @@
         
         .skillsList{
             margin: 1.2em;
-            grid-template-columns: 40vh 40vh 40vh;
-            grid-template-rows: 10vh 10vh 10vh;
-            place-content:inherit; /*para que se quede a la izq*/
-            gap: 1rem;
-            grid-template-areas: 
-                "li li li"
-                "li li li";
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;   
         }
     }
     
