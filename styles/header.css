@@ -4,8 +4,10 @@
     top: 0;
     z-index: 99;
     display: flex;
+    flex-wrap: wrap;/* Para el menu hamburguesa */
+    position: relative; /* Para el menu hamburguesa */
     height: 4em;
-    justify-content: space-between; /* Logo a la izquierda y menú a la derecha */
+    justify-content: space-between; 
     align-items: center;
     padding: 1em; /* Espaciado interno */
     margin-bottom: 0px;
@@ -17,6 +19,8 @@
         max-width: 100px;
     }
 
+    /*Estilos para la barra de navegación para ordenador*/
+
     .nav {
       .nav-list {
         list-style: none; /* Elimina los puntos de la lista */
@@ -24,6 +28,7 @@
         margin: 0;
         display: flex;
         gap: 10px;
+        
       }
       .nav-list li {
           margin-left: 0.3em; /* Espacio entre los enlaces del menú */
@@ -39,6 +44,47 @@
       }
       
     } 
+    
+    .list-icon{
+      color: var(--skyblue)
+    }
+
+    a{
+      text-decoration: none;
+    }
+    ul{
+      list-style: none;
+    }
+    .menu-hamburguesa{
+      display: none;
+    }
+
+    .menu-hamburguesa:checked + .menu-list {
+      height: 25em; 
+    }
+
+
+    .menu-list{
+      width: 90%;
+      background-color: var(--grey);
+      position: absolute;
+      top: 5em; /* La altura del header */
+      left: 0;
+      height: 0;
+      overflow: hidden;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      transition: all 0.4s;
+    }
+
+    .link{
+      font-size: 2.5em;
+      color: var(--skyblue);
+    }
+
     
 }
 
@@ -60,6 +106,9 @@
       .nav-list li a:hover { 
         cursor: pointer;
       }
+    }
+    .menu{
+      display: none;/*para que no aparezcan el menu hamburguesa en pc*/
     }
   }
   
