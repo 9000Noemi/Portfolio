@@ -27,6 +27,7 @@
       }
       .nav-list li {
           margin-left: 0.3em; /* Espacio entre los enlaces del menú */
+          display: none; /*para que no aparezcan en mobile*/
       }
       .nav-list li a {
         text-decoration: none;
@@ -42,9 +43,16 @@
 }
 
 
+
+
 @media screen and (width>768px){
   .header{
     .nav{
+
+      .nav-list li{
+        display: block;
+      }
+
       .nav-list li a {
         transition: all 0.8s; 
 
