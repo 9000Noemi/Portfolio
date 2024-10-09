@@ -42,18 +42,11 @@
 }
 
 
-/*@media screen and (hover: hover) {
-  .pointer {
-    cursor: pointer;  Manita al pasar encima del link -NO FUNCIONA AL CAMBIAR TAMAÑO 
-  }
-  
-}*/
-
 @media screen and (width>768px){
   .header{
     .nav{
       .nav-list li a {
-        transition: all 0.8s; /* Transicion de color-NO FUNCIONA AL CAMBIAR TAMAÑO */
+        transition: all 0.8s; 
 
       }
       .nav-list li a:hover { 
