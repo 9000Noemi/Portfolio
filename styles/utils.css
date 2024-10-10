@@ -14,7 +14,7 @@
 .title {     
     font-size: 1.2rem ;
     color: var(--skyblue);
-    margin: 1.2em;
+    margin: 1.2rem 0;
 }
 
 .title2{
@@ -40,9 +40,7 @@
     padding: 0.7rem;
     border-radius: 8px;
     border: 0.5px solid var(--black);
-    transition: all 0.8s;
-
-      
+    transition: all 0.8s;      
 }
 
 

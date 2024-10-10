@@ -1,7 +1,7 @@
-.contact-title{
-  font-size: 1.2rem ;
-  color: var(--skyblue);
-  margin: 1.2em;
+.form{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 850px;
 }
 
 .main-form {
@@ -40,14 +40,18 @@
 
 @media screen and (width>=768px) {
 
-  .contact-title{
-    color: var(--skyblue);
-    margin-left: 33%;
+  .title{
     font-size: 1.7rem;
+  }
+  .form{
+      font-size: 1.5rem;
+      .btn{
+        font-size: 1rem;
+      }
+
   }
 
   .main-form {
-    margin-left: 33%;
     
     .datos-personales{
       display: flex;

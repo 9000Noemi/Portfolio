@@ -1,11 +1,15 @@
 .aboutme {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 850px;
     background-color: var(--black);
     color: var(--white);
     margin-top: auto;
     border: 2px solid var(--black);
+    
+    p {
+        margin: 0;
     }
-.presentacion {
-    margin: 1.2em
 }
 
 
@@ -15,6 +19,7 @@
     }
     .aboutme{
         font-size: 1.5rem;
+    
     }
 
     

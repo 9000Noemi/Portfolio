@@ -41,7 +41,7 @@
   }
 
   .menu-hamburguesa:checked+.menu-list {
-    height: 25em;
+    height: 22em;
   }
 
   .menu-list {
