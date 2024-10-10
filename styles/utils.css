@@ -7,16 +7,29 @@
     --orange: #FFA500;
     --gold: #FFD700;
     --soft-yellow:#f7fb3e;
-    
-     
-    
-    font-size: 18px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem; 
 }
 
-.titulo {     
-    font-size: 22px ;
+.title {     
+    font-size: 1.2rem ;
     color: var(--skyblue);
     margin: 1.2em;
+}
+
+.title2{
+    font-size: 2.3rem ;
+    color: var(--skyblue);
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    
+}
+
+.title3{
+    font-size: 1.3rem ;
+    color: var(--skyblue);
+    text-align: center;
 }
 
 .btn{
@@ -28,11 +41,13 @@
     border-radius: 8px;
     border: 0.5px solid var(--black);
     transition: all 0.8s;
+
       
 }
 
 
 @media screen and (width > 768px) {
+
     .pointer { 
         cursor: pointer;
     }

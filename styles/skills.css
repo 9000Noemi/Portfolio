@@ -1,3 +1,4 @@
+
 .skills {
     
     .skillsList{
@@ -8,7 +9,7 @@
         
         .item_skills{
             font-family:'Arial Narrow', Arial, sans-serif;
-            font-size: 18px;
+            font-size: 1rem;
             font-weight: 200;
         }
         #pintura{
@@ -31,8 +32,6 @@
         }
     }
     
-    
-
 }
 
 .wrapper {
@@ -74,15 +73,19 @@
 
 
 
-@media screen and (width>=768px) {
+@media screen and (width>768px) {
     .skills{
         
         .skillsList{
             margin: 1.2em;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;   
+            gap: 1rem;  
         }
     }
+    .title{
+        font-size: 1.7rem;
+    }
+    
     
 }
 

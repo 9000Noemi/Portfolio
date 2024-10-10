@@ -7,3 +7,15 @@
 .presentacion {
     margin: 1.2em
 }
+
+
+@media screen and (min-width: 768px) {
+    .title{
+        font-size: 1.7rem;
+    }
+    .aboutme{
+        font-size: 1.5rem;
+    }
+
+    
+}
