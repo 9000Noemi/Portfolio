@@ -9,25 +9,28 @@
 }
 
 .works-container{
+    
     width: 90%;
-    margin: 0 auto;
+    margin: 0 1em;
     display: grid;
+    
     
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 20px;
 
     figure {
-
+        
         margin: 0;
         display: flex;
         flex-direction: column;
 
         div{
+            
             width: 200px;
             height: 220px;
             display: flex;
             justify-content: center;
-
+           
 
         }
        
@@ -62,11 +65,12 @@
 }
 
 @media screen and (width>=768px) {
-    .works-container {
 
+    .works-container {
         margin: 1.2em;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
+        justify-items: center;
 
 
         figure {
@@ -76,8 +80,8 @@
     
     
             img {
-    
                 width: 100%;
+                margin-bottom: 2.8em;
             }
         }
     }
