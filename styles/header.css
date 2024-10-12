@@ -71,13 +71,13 @@
 
 
 @media screen and (min-width: 768px) {
-  .header{
+  .header {
     .menu {
       display: none;
       /*Ocultar el menú hamburguesa*/
     }
-  
-  
+
+
     .menu-list {
       list-style: none;
       /* Elimina los puntos de la lista */
@@ -91,33 +91,33 @@
       width: auto;
       gap: 10px;
       background-color: var(--black);
-  
+
     }
-  
+
     .menu-link {
       margin-left: 0.3em;
       /* Espacio entre los enlaces del menú */
       display: block;
       /* Mostrar los enlaces del menú en pantallas grandes */
-      
-  
+
+
     }
-  
+
     .link {
       text-decoration: none;
       color: var(--skyblue);
       font-size: 1.5rem;
-      transition: all 0.8s; 
-      
+      transition: all 0.8s;
+
     }
-  
+
     .link:hover {
       color: var(--gold);
-  
-  
+
+
     }
 
   }
-  
+
 
 }

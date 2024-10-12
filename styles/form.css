@@ -1,4 +1,4 @@
-.form{
+.form {
   width: 90%;
   margin: 0 auto;
   max-width: 850px;
@@ -40,28 +40,30 @@
 
 @media screen and (width>=768px) {
 
-  .title{
+  .title {
     font-size: 1.7rem;
   }
-  .form{
-      font-size: 1.5rem;
-      .btn{
-        font-size: 1rem;
-      }
+
+  .form {
+    font-size: 1.5rem;
+
+    .btn {
+      font-size: 1rem;
+    }
 
   }
 
   .main-form {
-    
-    .datos-personales{
+
+    .datos-personales {
       display: flex;
     }
-    .datos-contacto{
-      display:flex;
+
+    .datos-contacto {
+      display: flex;
     }
-    
-     
-  }
+
 
   }
 
+}

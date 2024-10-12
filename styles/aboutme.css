@@ -6,7 +6,7 @@
     color: var(--white);
     margin-top: auto;
     border: 2px solid var(--black);
-    
+
     p {
         margin: 0;
     }
@@ -14,13 +14,13 @@
 
 
 @media screen and (min-width: 768px) {
-    .title{
+    .title {
         font-size: 1.7rem;
     }
-    .aboutme{
+
+    .aboutme {
         font-size: 1.5rem;
-    
+
     }
 
-    
 }

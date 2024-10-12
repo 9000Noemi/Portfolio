@@ -1,41 +1,46 @@
-
 .skills {
 
     width: 90%;
     margin: 0 auto;
     max-width: 850px;
-    
-    .skillsList{
+
+    .skillsList {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         place-content: center;
         gap: 1.5rem;
-        
-        .item_skills{
-            font-family:'Arial Narrow', Arial, sans-serif;
+
+        .item_skills {
+            font-family: 'Arial Narrow', Arial, sans-serif;
             font-size: 1rem;
             font-weight: 200;
         }
-        #pintura{
+
+        #pintura {
             --progressVar: 100%
         }
-        #oleo{
+
+        #oleo {
             --progressVar: 85%
         }
-        #dibujo{
-            --progressVar:60%
+
+        #dibujo {
+            --progressVar: 60%
         }
-        #carboncillo{
-            --progressVar:75%
+
+        #carboncillo {
+            --progressVar: 75%
         }
-        #fresco{
-            --progressVar:40%
+
+        #fresco {
+            --progressVar: 40%
         }
-        #escritura{
-            --progressVar:80%
+
+        #escritura {
+            --progressVar: 80%
         }
     }
-    
+
 }
 
 .wrapper {
@@ -43,10 +48,10 @@
     justify-content: center;
     align-items: center;
     height: 10vh;
-    
+
 }
 
-.progress-bar{
+.progress-bar {
     width: 100%;
     height: 10px;
     border-radius: 50px;
@@ -65,12 +70,14 @@
 
 
 
-@keyframes animate{
+@keyframes animate {
     0% {
         width: 0%;
     }
-    100%{
-        width: var(--progressVar);/*creamos la variable progress para rellenar la barra con porcentajes diferentes en cada skill*/
+
+    100% {
+        width: var(--progressVar);
+        /*creamos la variable progress para rellenar la barra con porcentajes diferentes en cada skill*/
     }
 }
 
@@ -78,22 +85,25 @@
 
 
 @media screen and (width>768px) {
-    .skills{
-        
-        .skillsList{
+    .skills {
+
+        .skillsList {
             margin: 1.2em;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;  
+            gap: 1rem;
+
+            .item_skills{
+                font-size: 1.4rem;
+            }
         }
+        
     }
-    .title{
+
+
+
+    .title {
         font-size: 1.7rem;
     }
-    
-    
+
+
 }
-
-
-
-
-

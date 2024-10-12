@@ -1,11 +1,11 @@
 .banner {
-    height: 50vh;
-    width: 100%;
-    align-content: center;
-    position: relative;
+  height: 50vh;
+  width: 100%;
+  align-content: center;
+  position: relative;
 
 
-.content {
+  .content {
     text-align: center;
     z-index: 1;
     position: relative;
@@ -16,7 +16,7 @@
   }
 
 
-.image {
+  .image {
     background-image: url('../assets/images/banner_mobile.png');
     position: absolute;
     left: 0;
@@ -24,15 +24,15 @@
     right: 0;
     bottom: 0;
     opacity: 0.9;
-    background-size: cover; 
-    background-repeat: no-repeat ; 
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+
   }
 }
 
-@media screen and (width>768px){
-  .banner{
-    .image{
+@media screen and (width>768px) {
+  .banner {
+    .image {
       background-image: url('../assets/images/banner_image.png');
     }
   }
